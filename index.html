@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Pizza</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #result-container {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            min-height: 150px;
+        }
+        .pizza-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            background-color: #fff;
+            text-align: center;
+        }
+        .pizza-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .pizza-card h2 {
+            margin: 10px 0;
+        }
+        .error-message {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Buscar Pizza</h1>
+    <input type="number" id="numberInput" placeholder="Ingresa el ID de la pizza">
+    <button id="searchButton">Buscar</button>
+    <div id="result-container"></div>
+
+    <!-- Enlace al archivo JavaScript externo -->
+    <script src="Util.js"></script>
+</body>
+</html>
